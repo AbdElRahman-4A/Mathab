@@ -1,0 +1,131 @@
+.roomDetail {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.sliderRoom {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.cardd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 30rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0, 0.25),
+    0 5px 5px rgba(0, 0, 0, 0, 0.22);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card:hover .card-header > h2 {
+  transform: scale(1.1);
+  color: black;
+  letter-spacing: 2;
+}
+
+.card-header > img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-header > img {
+  margin: 1rem;
+  text-align: center;
+}
+
+.card-detail {
+  width: 100%;
+}
+
+.card-detail > p {
+  padding: 0.6rem 1.5rem;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #d5d5;
+}
+
+.card-price {
+  display: flex;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+.card-price > p {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.card-price > p > sup,
+.card-price > p > sub {
+  font-size: 1rem;
+}
+
+.card-button {
+  padding: 0.6rem 3rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.handleRoom {
+  color: #0a1d40;
+}
+
+.handle-img {
+  display: flex;
+  justify-content: center;
+}
+
+.pos {
+  position: absolute;
+  bottom: -70px;
+  width: 95%;
+  margin-top: 500px;
+}
+
+.handleHeight {
+  height: 10rem;
+}
+.iconsRooms {
+  border-color: #0a1d40;
+}
+
+.iconsRooms img {
+  width: 5%;
+}
+
+.orderForm {
+  background-color: #0a1d40;
+  color: white;
+  border-radius: 3rem;
+}
+
+.sendBtn {
+  
+  transition: transform 1s    ;
+}
+
+.sendBtn:hover {
+ 
+  transform : scale(1.6)
+}

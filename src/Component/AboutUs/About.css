@@ -1,0 +1,32 @@
+.imageHandle {
+  width: 10rem;
+}
+
+.aboutTitle {
+  color: #0a1d40;
+}
+
+.aboutarea {
+  border-radius: 60px;
+  background-color: #0a1d40;
+}
+
+.an {
+  color: #0a1d40;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  border-radius: 2rem;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes example {
+  from {
+    top: -500px;
+  }
+  to {
+    top: 0px;
+  }
+}

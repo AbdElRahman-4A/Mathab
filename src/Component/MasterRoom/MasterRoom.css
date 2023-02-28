@@ -1,0 +1,64 @@
+.masterimg {
+  background-image: url("../../image/Room.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-start-start-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.masterimgR{
+  background-image: url("../../image/room2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-start-end-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+
+.masterimg1 {
+  background-image: url("../../image/room3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-start-start-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.masterimgR1{
+  background-image: url("../../image/room4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-start-end-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+
+
+.controlImgMaster {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+ 
+
+.titleMasterroom {
+  color: #0a1d40;
+  font-weight: 900;
+}
+
+.bordercard {
+}
+
+.masterArea {
+  background-color: #0a1d40;
+  color: white;
+  border-start-end-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+
+.masterAreaR {
+  background-color: #0a1d40;
+  color: white;
+  border-start-start-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
