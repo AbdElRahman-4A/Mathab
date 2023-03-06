@@ -41,16 +41,16 @@ export const Footer = () => {
           <div className="row text-center  d-flex justify-content-center ">
             <div className="col-md-3  ">
               <h5 className="mb-4 fw-bold text-warning">الشقق </h5>
-              <p className="text-white" onClick={ellanRoom}>
+              <p className="text-white links" onClick={ellanRoom}>
                 الين حطين
               </p>
-              <p className="text-white handlLink" onClick={safaRooms}>
+              <p className="text-white handlLink links" onClick={safaRooms}>
                 صفا عرقة
               </p>
-              <p className="text-white handlLink" onClick={bedorRoom}>
+              <p className="text-white handlLink links" onClick={bedorRoom}>
                 بدور حطين
               </p>
-              <p className="text-white handlLink" onClick={NahelRoom}>
+              <p className="text-white handlLink links" onClick={NahelRoom}>
                 نخيل - تركي 1
               </p>
             </div>

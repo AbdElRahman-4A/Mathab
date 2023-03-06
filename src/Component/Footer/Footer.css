@@ -1,14 +1,15 @@
- .bgFooter{
-  background-color: #0A1D40;
+.bgFooter {
+  background-color: #0a1d40;
   width: 100%;
   height: auto;
 }
 
 p:hover {
-  color: #ffc500 ;
-
+  color: #ffc500;
 }
 
-
+.links {
+  cursor: pointer;
+}
 
  

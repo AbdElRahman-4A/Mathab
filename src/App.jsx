@@ -47,7 +47,9 @@ function App() {
   return (
     <>
       {loading ? (
-        <Lottie animationData={load} className="animatLoad " />
+        <div className="row ">
+          <Lottie animationData={load} className="animatLoad " />
+        </div>
       ) : (
         <RouterProvider router={routes} />
       )}
